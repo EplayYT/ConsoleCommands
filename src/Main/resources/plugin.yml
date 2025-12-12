@@ -1,45 +1,11 @@
-name: ConsoleCommands
+name: economyplus
+main: me.economyshop.Main
 version: 1.0
-main: me.plugin.Main
 api-version: 1.16.5
-
 commands:
-  ccstop:
-    description: Sunucuyu durdurur
-    usage: /ccstop
-
-  ccrestart:
-    description: Sunucuyu yeniden başlatır
-    usage: /ccrestart
-
-  ccsave:
-    description: Dünyayı kaydeder
-    usage: /ccsave
-
-  ccreload:
-    description: Sunucuyu yeniden yükler
-    usage: /ccreload
-
-  ccwhiteliston:
-    description: Whitelist'i açar
-    usage: /ccwhiteliston
-
-  ccwhitelistoff:
-    description: Whitelist'i kapatır
-    usage: /ccwhitelistoff
-
-  ccban:
-    description: Oyuncuyu banlar
-    usage: /ccban <oyuncu>
-
-  ccunban:
-    description: Oyuncunun banını kaldırır
-    usage: /ccunban <oyuncu>
-
-  ccop:
-    description: Oyuncuya OP verir
-    usage: /ccop <oyuncu>
-
-  ccdeop:
-    description: Oyuncudan OP alır
-    usage: /ccdeop <oyuncu>
+  shop:
+    description: Market açar.
+  market:
+    description: Market açar.
+  pay:
+    description: Para gönderir.
